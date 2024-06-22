@@ -2,8 +2,8 @@ import { defineNuxtModule, addImports, createResolver } from '@nuxt/kit'
 
 export default defineNuxtModule({
   meta: {
-    name: 'ggc30',
-    configKey: 'ggc30',
+    name: 'nuxt-escss-methodology-estest',
+    configKey: 'nuxt-escss-methodology-estest',
   },
   // Default configuration options of the Nuxt module
   defaults: {},

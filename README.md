@@ -5,29 +5,35 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-just a wrapper from estest in order to use esTest() globally
-
+just a wrapper from escss-methodology-estest in order to use esTest() globally
+(avoid duplicate import {esTest} from '...')
 
 ## Features
 -  Zero configuration to start
 -  100% function coverage to catch EVERY bugs
+-  fixed null is an object legacy to be a 'null' type and other
+-  AWESOME error hint makes you less frustrated and treat newbie nicely
+
+## Usage
+
+[see](<http://example.com/>)
 
 ## Quick Setup
 
 install
 
 ```bash
-# Using npm
-npm install -D nuxt-escss-methodology-estest
+  # Using npm
+  npm install -D nuxt-escss-methodology-estest
 
-# Using yarn
-yarn add -D nuxt-escss-methodology-estest
+  # Using yarn
+  yarn add -D nuxt-escss-methodology-estest
 
-# Using pnpm
-pnpm add -D nuxt-escss-methodology-estest
+  # Using pnpm
+  pnpm add -D nuxt-escss-methodology-estest
 
-# Using bun
-npm add -D nuxt-escss-methodology-estest
+  # Using bun
+  npm add -D nuxt-escss-methodology-estest
 ```
 
 nuxt.config.{ts,js}
