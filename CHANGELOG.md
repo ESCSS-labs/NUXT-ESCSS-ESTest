@@ -1,6 +1,8 @@
 # Changelog
 
 
+## v1.0.20
+
 ## v1.0.19
 
 [compare changes](https://github.com/your-org/my-module/compare/v1.0.18...v1.0.19)
