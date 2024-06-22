@@ -1,9 +1,8 @@
 {
   "name": "nuxt-escss-methodology-estest",
   "version": "1.0.19",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
-  "license": "MIT",
+  "description": "Let every bugs can be found, make developers less frustrated",
+  "license": "Dual-Licensing",
   "type": "module",
   "exports": {
     ".": {
