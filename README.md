@@ -11,8 +11,8 @@ just a wrapper from escss-methodology-estest in order to use esTest() globally
 ## Features
 -  Zero configuration to start
 -  100% function coverage to catch EVERY bugs
--  fixed null is an object legacy to be a 'null' type and other
 -  AWESOME error hint makes you less frustrated and treat newbie nicely
+-  Treat null as 'null' type and other('NAN', 'array'...)
 
 ## Usage
 
@@ -45,4 +45,4 @@ export default defineNuxtConfig({
   ]
 })
 ```
-That's it! happy coding ✨
+That's it! Happy Coding ✨
