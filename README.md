@@ -49,11 +49,13 @@ That's it! Happy Coding ✨
 ## License
 
 This program is offered dual license:
+
 1. commercial licensing, contact us at escss.sales@gmail.com
 2. AGPL licensing, see below.
 
 AGPL licensing:
-vision: Let every bugs can be found, make developers less frustrated.
+
+Let every bugs can be found, make developers less frustrated.
 
 Copyright (c) 2024-present, Mike Lee(李應鈞)
 

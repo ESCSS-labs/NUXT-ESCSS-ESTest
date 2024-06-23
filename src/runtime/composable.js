@@ -1,3 +1,3 @@
-import { esTest } from 'escss-methodology-library-js'
+import { esTest } from 'escss-methodology-estest'
 
 export { esTest }
