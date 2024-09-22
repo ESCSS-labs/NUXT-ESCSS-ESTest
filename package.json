@@ -1,8 +1,19 @@
 {
   "name": "nuxt-escss-estest",
   "version": "0.0.1",
-  "description": "Let every bugs can be found, make developers less frustrated",
+  "author": {
+    "name": "Mike Lee"
+  },
+  "description": "100% coverage makes your life easier",
   "license": "Dual-Licensing",
+  "keywords": [
+    "escss",
+    "unit-testing",
+    "typescript",
+    "clean-code",
+    "tdd-javascript",
+    "zero-dependency"
+  ],
   "type": "module",
   "exports": {
     ".": {
