@@ -2,8 +2,8 @@ import { defineNuxtModule, addImports, createResolver } from '@nuxt/kit'
 
 export default defineNuxtModule({
   meta: {
-    name: 'nuxt-escss-methodology-estest',
-    configKey: 'nuxt-escss-methodology-estest',
+    name: 'nuxt-escss-estest',
+    configKey: 'nuxt-escss-estest',
   },
   // Default configuration options of the Nuxt module
   defaults: {},
@@ -12,7 +12,7 @@ export default defineNuxtModule({
 
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addImports({
-      name: 'esTest', // name of the composable to be used
+      name: 'ESTest', // name of the composable to be used
       from: resolver.resolve('./runtime/composable'), // path of composable
     })
   },

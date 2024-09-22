@@ -1,13 +1,13 @@
 # nuxt-escss-estest
-Just a wrapper for escss-estest, in order to use ESTest function globally in Nuxt3
+Just a wrapper for ESCSS-ESTest to use ESTest function globally in Nuxt3
 
 ## Features
--  Enable globally use in Nuxt 3
+-  Enable global use in Nuxt 3
 -  Same features as ESCSS-ESTest
 
 ## Usage
 
-[see](<https://github.com/ESCSS-labs/ESCSS-ESTest>)
+[see](<https://www.npmjs.com/package/escss-estest>)
 
 ## Quick Setup
 
@@ -37,3 +37,6 @@ export default defineNuxtConfig({
 })
 ```
 That's it! Happy Coding ✨
+
+## LICENSE
+[see](https://github.com/ESCSS-labs/ESCSS-ESTest?tab=License-1-ov-file)

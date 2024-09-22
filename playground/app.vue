@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-esTest(1, 'string')
+ESTest(1, 'string')
 </script>

@@ -1,3 +1,3 @@
-import { esTest } from 'escss-methodology-estest'
+import { ESTest } from 'escss-estest'
 
-export { esTest }
+export { ESTest }

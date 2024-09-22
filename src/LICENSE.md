@@ -1,23 +1,49 @@
-This program is offered dual license:
+# Dual-Licensing（Commercial or AGPL-v3.0）
 
-1. commercial licensing, contact us at escss.sales@gmail.com
-2. AGPL licensing, see below.
+## Which license should I use?
 
-AGPL licensing:
+    I want to protect business secrets. → Commercial License
+    I want to share with everyone. → AGPL-3.0 License
 
-Let every bugs can be found, make developers less frustrated.
+**_Note_**
+- Commercial License: sell both ESCSS-SCSS and ESCSS-ESTest together, not individually.
+- This is a brief overview. For detailed information, please refer to AGPL-v3.0 and consult a lawyer as needed.
 
-Copyright (c) 2024-present, Mike Lee(李應鈞)
+## 1. Commercial License:
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+    Term: 1 Year (licensee must renew annually)
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+    Support: No support (separate agreement)
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    Permissions:
+      modification of original source code
+      use as a component in a new software or service
+
+    Restrictions:
+      sell, license, or sublicense the original software or documentation
+      share modifications with others
+      modify in a way that competes with the original software for customers
+
+[Acquire a Commercial License](https://opencollective.com/escss)
+
+[ESCSS-SCSS + ESCSS-ESTest Commercial License detail](./src/assets/Basic-Yearly.pdf)
+
+## 2. AGPL-v3.0 License:
+
+    Copyright (C) 2024  Mike Lee <https://github.com/MikeLee0358>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Reference
+[dual-license-templates](https://github.com/lawndoc/dual-license-templates)

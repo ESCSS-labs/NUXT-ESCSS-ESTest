@@ -1,33 +1,55 @@
-type Mode = 'undefined' | 'null' | 'array' | 'object' | 'boolean' | 'NaN' | 'number' | 'bigint' | 'string' | 'symbol' | 'function' | '===' | '!==' | '<' | '<=' | '>=' | '>'
+type Mode =
+  | 'undefined'
+  | 'null'
+  | 'array'
+  | 'object'
+  | 'boolean'
+  | 'NaN'
+  | 'number'
+  | 'bigint'
+  | 'string'
+  | 'symbol'
+  | 'function'
+  | '==='
+  | '!=='
+  | '<'
+  | '<='
+  | '>='
+  | '>'
 
 /**
- * 100% function coverage makes your life easier.
- * @example
+ * 100% coverage makes your life easier.
  * ```js
- * // operator mode
- * esTest(1, '<', 5)
- * esTest(5, '>', 1)
- * esTest(1, '<=', 5)
- * esTest(5, '>=', 1)
- * esTest(1, '!==', 2)
- * esTest(1, '===', 1)
- * esTest(1, '===', 100) // error
- * esTest(1, '===', 100, 'foo') // error & message
- *
  * // type mode
- * esTest(1, 'number')
- * esTest(1n, 'bigint')
- * esTest('foo', 'string')
- * esTest(true, 'boolean')
- * esTest([], 'array')
- * esTest({}, 'object')
- * esTest(NaN, 'NaN')
- * esTest(null, 'null')
- * esTest(undefined, 'undefined')
- * esTest(Symbol(), 'symbol')
- * esTest(function () {}, 'function')
- * esTest(1, 'object') // error
- * esTest(1, 'object', 'foo') // error & message
+ * ESTest(1, 'number')
+ * ESTest(1n, 'bigint')
+ * ESTest('foo', 'string')
+ * ESTest(true, 'boolean')
+ * ESTest([], 'array')
+ * ESTest({}, 'object')
+ * ESTest(NaN, 'NaN')
+ * ESTest(null, 'null')
+ * ESTest(undefined, 'undefined')
+ * ESTest(Symbol(), 'symbol')
+ * ESTest(function () {}, 'function')
+ * ESTest(1, 'object') // error
+ * ESTest(1, 'object', 'mike 09062024 1') // The error message should provide a unique ID for troubleshooting
+ *
+ * // operator mode
+ * ESTest(1, '<', 5)
+ * ESTest(5, '>', 1)
+ * ESTest(1, '<=', 5)
+ * ESTest(5, '>=', 1)
+ * ESTest(1, '!==', 2)
+ * ESTest(1, '===', 1)
+ * ESTest(1, '===', 100) // error
+ * ESTest(1, '===', 100, 'mike 09062024 1') // The error message should provide a unique ID for troubleshooting
  * ```
  */
-export function esTest(input: unknown, mode: Mode, input2?: unknown, msg?: string): void
+export function ESTest(
+  input: unknown,
+  mode: Mode,
+  msgOrInput2?: unknown,
+  msg?: string,
+// eslint-disable-next-line @typescript-eslint/no-invalid-void-type
+): void | Error
