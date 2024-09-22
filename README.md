@@ -36,7 +36,14 @@ export default defineNuxtConfig({
   ]
 })
 ```
-That's it! Happy Coding ✨
+
+same usage as escss-estest
+
+```vue
+<script setup>
+ESTest('Happy Coding ✨', 'string', 'mike 09232024 1')
+</script>
+```
 
 ## LICENSE
 [see](https://github.com/ESCSS-labs/ESCSS-ESTest?tab=License-1-ov-file)
