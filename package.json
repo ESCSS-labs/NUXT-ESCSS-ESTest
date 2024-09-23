@@ -1,6 +1,6 @@
 {
   "name": "nuxt-escss-estest",
-  "version": "1.3.1-patch.1",
+  "version": "1.3.2",
   "author": {
     "name": "Mike Lee"
   },
@@ -8,11 +8,9 @@
   "license": "Dual-Licensing",
   "keywords": [
     "escss",
-    "unit-testing",
-    "typescript",
-    "clean-code",
-    "tdd-javascript",
-    "zero-dependency"
+    "library",
+    "tdd",
+    "nuxt"
   ],
   "type": "module",
   "exports": {
