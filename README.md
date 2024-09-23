@@ -1,4 +1,4 @@
-# nuxt-escss-estest
+# NUXT-ESCSS-ESTest
 Just a wrapper for ESCSS-ESTest to use ESTest function globally in Nuxt3
 
 ## Features
