@@ -7,7 +7,7 @@ Just a wrapper for ESCSS-ESTest to use ESTest function globally in Nuxt3
 
 ## Usage
 
-[see](<https://www.npmjs.com/package/escss-estest>)
+[see](https://github.com/ESCSS-labs/ESCSS-ESTest)
 
 ## Quick Setup
 
